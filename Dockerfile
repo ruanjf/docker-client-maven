@@ -1,6 +1,6 @@
 from dbreaux/alpine-with-docker-client
 
-RUN apk add --no-cache curl tar bash procps
+RUN apk add --no-cache curl tar bash procps openjdk8
 
 ARG MAVEN_VERSION=3.6.2
 ARG USER_HOME_DIR="/root"
